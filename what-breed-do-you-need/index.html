@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breed Finder</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="styleshet">
+</head>
+
+<body class="bg-yellow-100">
+
+<!-- Header -->
+<header>
+  <div class="text-center mt-6 font-mono bg-gradient-to-r from-yellow-700 via-yellow-300 to-yellow-400 py-8 bg-blend-darken ">
+      <h1>
+          <a class="text-6xl text-blue-600 font-black bg-blend-darken" href="/"> Dog Breed Finder</a>
+      </h1>
+  </div>
+  </header>
+
+<!-- Header 2 with Txt "What breed are you looking for?"-->
+
+<section id="question">
+  <div class="sec-header"> </div>
+  <div class="question text-center mt-6 font-mono text-2xl italic">
+      <div id="what-breed" class="what-breed underline">
+          <h2>What Breed Do You Need?</h2>
+      </div>
+  </div>
+</section>
+
+<!-- Search Bar -->
+
+<section id="search">
+<form id="task-form">
+  <div class="form-group text-center mt-6 font-mono">
+    <label for="breed-name" class="search-title bg-yellow-300">Search for a Breed:</label>
+    <input type="text" name="breed-name" id="breed-name" class="text-input shadow-xl animate-pulse animate-bounce rounded-md text-center" placeholder="Enter Dog Breed Here" />
+  </div>
+  <button type="submit" class="button search-button shadow-xl font-mono rounded-2xl"></button>
+</form>
+<div class="w-full ">
+  <iframe class="responsive-iframe rounded-md m-auto" src="https://www.youtube.com/embed/Ik9dHDqlTpc"></iframe>
+</div>
+</section>
+
+<!-- Saved response row -->
+<section class="favorite-dogs rounded-lg filter contrast-125 space-x-4 m-8"></section>
+
+<!-- Add favorite button -->
+<section class="add-fave rounded-lg filter contrast-125 space-x-4 m-8 animate-pulse "></section>
+
+<section class="dog-info m-8 flex justify-center">
+
+</section>
+
+
+<!-- Footer -->
+<footer class="p-24">
+  <div class=" text-center mt-6 font-mono text-sm bg-gradient-to-r from-yellow-700 via-yellow-300 to-yellow-400 ">
+    <h2>Made for the Dogs &#128054;</h2>
+    <p>
+      &copy; 2021 UNC Coding Boot Camp, Project 1.
+  </p>
+</div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
